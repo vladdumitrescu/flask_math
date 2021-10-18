@@ -57,6 +57,7 @@ and http://127.0.0.1:5000/v1/factorial .
 
 ```flask
 POST http://127.0.0.1:5000/v1/powers
+Body {"base":2, "exponent":3}
 ```
 
 * To read a resource for a specific ID(where 1 is out desired ID):
